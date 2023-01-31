@@ -1,8 +1,9 @@
 
 public class RDAccount extends ApplicationForm{
 
-	RDAccount(){
+	public void rdAccount(){
 		System.out.println("Applciation form for RD Account");
-		new ApplicationForm();
+		ApplicationForm application = new ApplicationForm();
+		application.applicationForm();
 	}
 }

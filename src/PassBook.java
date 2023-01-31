@@ -1,7 +1,7 @@
 
 public class PassBook extends ApplicationForm{
 
-	PassBook(){
+	public void passBook(){
 		System.out.println("------------------------------------------------------------------------------------------------------------------");
 		System.out.println("||||THE BANK||||");
 		System.out.println("NAME: "+name);

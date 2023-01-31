@@ -1,9 +1,10 @@
 
 public class CurrentAccount extends ApplicationForm{
-
-	CurrentAccount(){
+	
+	public void currentAccount() {
 		System.out.println("Application form for Cuurent Account");
-		new ApplicationForm();
+		ApplicationForm application =new ApplicationForm();
+		application.applicationForm();
 	}
 	
 }
